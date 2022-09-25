@@ -3,19 +3,19 @@ using namespace std;
 
 int main()
 {
-	int i=0,l;
-	float x,s=0;
-	cout<<"ingrese el limite l="; cin>>l;
+	int JAPP_i=0,JAPP_l;
+	float JAPP_x,JAPP_s=0;
+	cout<<"ingrese el limite JAPP_l="; cin>>JAPP_l;
 	do{
 		
-	cout<<"ingrese el numero x="; cin>>x;
-	i=i+1;
-	s=s+x;
+	cout<<"ingrese el numero JAPP_x="; cin>>JAPP_x;
+	JAPP_i=JAPP_i+1;
+	JAPP_s=JAPP_s+JAPP_x;
 
 
 
-	}while(i<l);
-	cout<<"Se ingresaron "<<l<<" numeros "<< "que sumaron "<<s<<endl;
+	}while(JAPP_i<JAPP_l);
+	cout<<"Se ingresaron "<<JAPP_l<<" numeros "<< "que sumaron "<<JAPP_s<<endl;
 	return 0;
 
 
